@@ -1,0 +1,88 @@
+/* Base Fonts and Overrides */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Variant 1 Overrides */
+.fw-black {
+  font-weight: 900 !important;
+}
+
+.custom-hover-card {
+  transition: all 0.3s ease;
+}
+
+.custom-hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+  border-color: #ffc107 !important;
+}
+
+/* Variant 3 (Dark Elite) Overrides */
+.text-neon {
+  color: #a3e635 !important;
+}
+
+.bg-neon {
+  background-color: #a3e635 !important;
+  color: #000 !important;
+}
+
+.btn-neon {
+  background-color: #a3e635;
+  color: #000;
+  border: none;
+}
+
+.btn-neon:hover {
+  background-color: #84cc16;
+  color: #000;
+}
+
+/* Variant 4 (App Style) Overrides */
+.bg-peach {
+  background-color: #FDF8F5 !important;
+}
+
+.text-orange {
+  color: #FF6B00 !important;
+}
+
+.bg-orange {
+  background-color: #FF6B00 !important;
+}
+
+.bg-orange-light {
+  background-color: #FFEFE5 !important;
+}
+
+.btn-orange {
+  background-color: #FF6B00;
+  color: #fff;
+  border: none;
+}
+
+.btn-orange:hover {
+  background-color: #ea580c;
+  color: #fff;
+}
+
+.btn-orange-light {
+  background-color: #FFF5EF;
+  color: #FF6B00;
+  border-color: #FFE8DA;
+}
+
+.custom-hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+}
+
+.hover-bg-light:hover {
+  background-color: #f8f9fa !important;
+}

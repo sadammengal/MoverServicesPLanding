@@ -2,5 +2,7 @@
   "name": "MoveWell Variants",
   "description": "4 different design variants for a packers and movers landing page.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
